@@ -1,5 +1,8 @@
-[DHI](https://www.dhigroup.com/) are the first people you should call when you have a tough challenge to solve in a water environment – be it a river, a reservoir, an ocean, a coastline, or an aquifer.
+There is no substitute for water. Future development will depend on how water can be managed and shared, climate change adaptation can be implemented and water quality improved.
 
-Our knowledge of water environments is second-to-none. It represents 50 years of dedicated research and real-life experience from more than 140 countries. We strive to make this knowledge globally accessible to clients and partners by channelling it through our local teams and unique software.
+[DHI](https://www.dhigroup.com/) has been committed to advancing and sharing knowledge of water environments for over 60 years. Every day, our more than 1,100 engineers and other specialists work within the entire water cycle to support decision-makers in the global water industry. From developing offshore wind farms, to safeguarding cities from flooding, protecting shorelines from erosion and enriching biodiversity in water.
 
-Our world is water. So whether you need to save water, share it fairly, improve its quality, quantify its impact or manage its flow, we can help. Our knowledge, combined with our team's expertise and the power of our technology, holds the key to unlocking the right solution.
+Our decades of domain expertise, advanced technologies and unique modelling software are the building blocks of our solutions. Together with our clients and partners, we innovate new ways to use, manage and live with water and protect water-related ecosystems. Our long-standing partnerships across sectors, from private companies to UN agencies and academic institutions, allow us to extend our impact on positive global development.
+
+We enable a sustainable future for water.
+
