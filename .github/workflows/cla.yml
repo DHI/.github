@@ -1,0 +1,26 @@
+# Signatures live in DHI/cla-signatures, so a contributor signs once for all DHI repos.
+name: CLA
+
+on:
+  workflow_call:
+    secrets:
+      CLA_SIGNATURES_TOKEN:
+        description: Token with write access to DHI/cla-signatures
+        required: true
+
+jobs:
+  cla:
+    if: (github.event.comment.body == 'recheck' || github.event.comment.body == 'I have read the CLA Document and I hereby sign the CLA') || github.event_name == 'pull_request_target'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: contributor-assistant/github-action@v2.6.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.CLA_SIGNATURES_TOKEN }}
+        with:
+          path-to-document: https://github.com/DHI/.github/blob/main/CLA.md
+          remote-organization-name: DHI
+          remote-repository-name: cla-signatures
+          path-to-signatures: signatures/cla.json
+          branch: main
+          allowlist: dependabot[bot],github-actions[bot]
